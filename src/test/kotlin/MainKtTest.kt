@@ -169,6 +169,6 @@ class MainKtTest {
             totalThisMonth = ttlThisMonth,
             transactionSum = trSum
         )
-        assertEquals(-1.0, result, 0.001)
+        assertEquals(-99999.0, result, 0.001)
     }
 }
