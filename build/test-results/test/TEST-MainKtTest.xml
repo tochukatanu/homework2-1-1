@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainKtTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2023-03-14T11:39:48" hostname="roy" time="0.015">
+<testsuite name="MainKtTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2023-03-15T09:32:45" hostname="roy" time="0.015">
   <properties/>
-  <testcase name="finalCommissionDefault" classname="MainKtTest" time="0.011"/>
+  <testcase name="finalCommissionDefault" classname="MainKtTest" time="0.01"/>
+  <testcase name="finalCommissionMcCheckRange" classname="MainKtTest" time="0.0"/>
   <testcase name="finalCommissionMcCalculatedCommission" classname="MainKtTest" time="0.0"/>
-  <testcase name="finalCommissionMirDefaultCommission" classname="MainKtTest" time="0.001"/>
+  <testcase name="finalCommissionMirDefaultCommission" classname="MainKtTest" time="0.0"/>
   <testcase name="finalCommissionVisaCalculatedCommission" classname="MainKtTest" time="0.0"/>
   <testcase name="finalCommissionMaestroCalculatedCommission" classname="MainKtTest" time="0.0"/>
   <testcase name="finalCommissionBrakeVkPayMonthLimit" classname="MainKtTest" time="0.001"/>
   <testcase name="finalCommissionMaestroDefaultCommission" classname="MainKtTest" time="0.0"/>
   <testcase name="finalCommissionMcDefaultCommission" classname="MainKtTest" time="0.0"/>
-  <testcase name="finalCommissionVisaDefaultCommission" classname="MainKtTest" time="0.0"/>
+  <testcase name="finalCommissionVisaDefaultCommission" classname="MainKtTest" time="0.001"/>
   <testcase name="finalCommissionBrakeDayLimit" classname="MainKtTest" time="0.0"/>
   <testcase name="finalCommissionBrakeMonthLimit" classname="MainKtTest" time="0.0"/>
-  <testcase name="finalCommissionBrakeVkPayTransactionLimit" classname="MainKtTest" time="0.0"/>
+  <testcase name="finalCommissionBrakeVkPayTransactionLimit" classname="MainKtTest" time="0.001"/>
   <testcase name="finalCommissionMirCalculatedCommission" classname="MainKtTest" time="0.0"/>
   <testcase name="finalCommission" classname="MainKtTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

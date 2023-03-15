@@ -13,8 +13,8 @@ fun finalCommission(paymentType: String = "VK Pay", totalThisMonth: Double, tran
     var calculation = 0.0
     calculation = if (totalThisMonth < cardLimitPerMonth && transactionSum <= cardLimitPerDay) {
         when (paymentType) {
-            "Mastercard" -> if (transactionSum < 75_000) 0.0 else 0.006 * transactionSum + 20.0
-            "Maestro" -> if (transactionSum < 75_000) 0.0 else 0.006 * transactionSum + 20.0
+            "Mastercard" -> if (transactionSum in 300.0..75000.0) 0.0 else 0.006 * transactionSum + 20.0
+            "Maestro" -> if (transactionSum in 300.0..75000.0) 0.0 else 0.006 * transactionSum + 20.0
             "Visa" -> if (transactionSum * 0.0075 < 35.0) 35.0 else 0.0075 * transactionSum
             "Мир" -> if (transactionSum * 0.0075 < 35.0) 35.0 else 0.0075 * transactionSum
             "VK Pay" -> if (transactionSum <= vkPayLimitPerTransaction &&   totalThisMonth <= vkPayLimitPerMonth) 0.0 else -99999.0

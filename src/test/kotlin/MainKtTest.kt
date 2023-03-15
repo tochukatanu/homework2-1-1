@@ -42,6 +42,18 @@ class MainKtTest {
         assertEquals(476.0, result, 0.001)
     }
     @Test
+    fun finalCommissionMcCheckRange() {
+        val ttlThisMonth = 40_000.0
+        val trSum = 200.0
+        val paymentT = "Mastercard"
+        val result = finalCommission(
+            paymentType = paymentT,
+            totalThisMonth = ttlThisMonth,
+            transactionSum = trSum
+        )
+        assertEquals(21.2, result, 0.001)
+    }
+    @Test
     fun finalCommissionMaestroDefaultCommission() {
         val ttlThisMonth = 40_000.0
         val trSum = 74_000.0
